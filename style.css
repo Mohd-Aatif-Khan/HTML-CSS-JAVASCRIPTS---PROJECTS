@@ -1,0 +1,69 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    border: none;
+    outline: none;
+
+}
+
+.container{
+background-color: aqua;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container .counter{
+background-color: #fff;
+padding: 15rem;
+margin: 5rem;
+border-radius: 1rem;
+box-shadow: greenyellow ,0px 7px 29px 0px;
+}
+
+#count{
+  text-align: center;
+  font-size: 10rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+/* #fname{
+    border:3px solid whitesmoke ;
+    border-radius: 40px;
+} */
+
+.buttons {
+
+text-align: center;
+margin-top: 2rem;
+}
+
+.buttons button{
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+#add{
+  border-radius: 1rem;
+  background-color: orange;
+  color: #fff;
+}
+
+#sub{
+    border-radius: 1rem;
+    background-color: green;
+    color: #fff;
+  }
+
+  #reset{
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+  }
